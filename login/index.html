@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+    <p>Ingresa tu nombre y te diremos si estas en la lista</p><br>
+    <label for="">
+        <input type="text" id="abc">
+    </label>
+    <button id="r" onclick="operaciones();">Inciar sesión</button><br>
+    <label for="">
+        <input type="text" id="abcd">
+    </label>
+  
+
+
+  <script>
+    function operaciones(){
+      Lista= ['Adrian','Coronel','Jarol','David'];
+      nombre = document.getElementById('abc').value;
+      multi1 = 'Sesion iniciada correctamente';
+      multi2 = 'Sesion no iniciada';
+
+        if (nombre=Lista) {
+          (document.getElementById('abcd').value=multi1)
+          alert('Es correcto')
+        }
+        
+          
+        else 
+          (document.getElementById('abcd').value=multi2)
+          aler('Es incorrecto')
+        
+        
+    }
+
+
+  </script>
+
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+.imgpago {
+    width: 35px;
+    height: 35px;
+}
+
+#img-mercadoPago {
+    width: 80px;
+    height: 45px;
+}
+
+#mastercard {
+    width: 36px;
+    height: 22px;
+}
+
+#imgyape {
+    width: 33px;
+    height: 32px;
+    border-radius: 20%;
+}
+
+#logo1 {
+    background-color: rgb(14, 13, 13);
+}
+
+#enca-id {
+    width: 170px;
+    height: 115px;
+    margin: 15px;
+  }
+
+#caldo {
+    border-radius: 1%;
+}
+
+.costo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+#letra-p1 {
+    color: rgb(131, 131, 131);
+    font-size: 22px;
+}
+
+#letra2 {
+    color: rgb(97, 97, 97);
+    font-size: 30px;
+}
+
+#telefono {
+    width: 23px;
+    height: 23px;
+}
+
+#celular {
+    line-height: center;
+    font-size: 25px;
+    color: rgb(87, 87, 87);
+}
+
+#map-p-1 {
+    border-radius: 3%;
+    border-width: 2px;
+}
+
+
+
+
+/*#boton {
+    width: ;
+}
